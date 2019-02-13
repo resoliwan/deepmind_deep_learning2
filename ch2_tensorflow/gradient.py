@@ -43,5 +43,5 @@ plt.legend()
 # plt.show(False)
 # plt.close()
 
-plt.gca().set_position([0, 0, 1, 1])
-plt.savefig('ch2_tensorflow/gradient.svg')
+# plt.gca().set_position([0, 0, 1, 1])
+plt.savefig('../ch2_tensorflow/gradient.svg')
