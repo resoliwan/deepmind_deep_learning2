@@ -26,10 +26,10 @@ r3 = tf.nn.leaky_relu(
     )
 
 with tf.train.MonitoredSession() as sess:
-  y0 = sess.run(r0)
-  y1 = sess.run(r1)
-  y2 = sess.run(r2)
-  y3 = sess.run(r3)
+    y0 = sess.run(r0)
+    y1 = sess.run(r1)
+    y2 = sess.run(r2)
+    y3 = sess.run(r3)
 
 plt.plot(x, y0, label='alpha=0')
 plt.plot(x, y1, label='alpha=0.1')

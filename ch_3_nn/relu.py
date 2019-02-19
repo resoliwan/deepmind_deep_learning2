@@ -6,14 +6,14 @@ x = np.linspace(-6, 6, 1000)
 r0 = tf.nn.relu(x)
 
 with tf.train.MonitoredSession() as sess:
-  y0 = sess.run(r0)
+    y0 = sess.run(r0)
 
 plt.plot(x, y0)
 plt.title('Relu')
 plt.xlabel('x')
 plt.ylabel('relu(x)')
 plt.margins(x=0)
-plt.grid()
+pt.grid()
 # plt.legend()
 
 plt.show(False)
