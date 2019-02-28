@@ -13,7 +13,7 @@ plt.title('Relu')
 plt.xlabel('x')
 plt.ylabel('relu(x)')
 plt.margins(x=0)
-pt.grid()
+plt.grid()
 # plt.legend()
 
 plt.show(False)
